@@ -25,7 +25,8 @@ pkgver() {
 package() {
     install -D -m755 $srcdir/$_gitname/phpbrew $pkgdir/usr/share/webapps/bin/phpbrew.phar
     install -D -m644 $srcdir/$_gitname/LICENSE $pkgdir/usr/share/licenses/$pkgname/LICENSE
-    install -D -m644 $srcdir/$_gitname/completion/bash/_phpbrew $pkgdir/usr/share/bash-completion/completions/$_gitname
+    install -D -m644 $srcdir/$_gitname/completion/bash/_phpbrew $pkgdir/usr/share/bash-completion/completions/phpbrew
+    install -D -m644 $srcdir/$_gitname/completion/zsh/_phpbrew $pkgdir/usr/share/zsh/site-functions/_phpbrew
 
     install -d $pkgdir/usr/bin
     ln -s /usr/share/webapps/bin/phpbrew.phar $pkgdir/usr/bin/phpbrew
