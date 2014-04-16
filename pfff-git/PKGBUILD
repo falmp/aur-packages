@@ -1,7 +1,7 @@
 # Maintainer: Francisco Lopes <chico.lopes@gmail.com>
 
 pkgname='pfff-git'
-pkgver=v0.27.3.r0.g6aa8772
+pkgver=v0.27.3.r118.g7382b4f
 pkgrel=1
 pkgdesc='pfff is a set of tools and APIs to perform some static analysis, dynamic analysis, code visualizations, code navigations, or style-preserving source-to-source transformations'
 arch=('x86_64')
