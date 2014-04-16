@@ -1,7 +1,7 @@
 # Maintainer: Francisco Lopes <chico.lopes (a) gmail (dot) com>
 
 pkgname='phpbrew-git'
-pkgver=1097.496c040
+pkgver=1.13.1.r18.g496c040
 pkgrel=1
 pkgdesc='Brew & manage PHP versions in pure PHP at HOME'
 arch=('any')
