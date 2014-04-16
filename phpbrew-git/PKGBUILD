@@ -1,6 +1,6 @@
 # Maintainer: Francisco Lopes <chico.lopes (a) gmail (dot) com>
 
-pkgname='php-phpbrew-git'
+pkgname='phpbrew-git'
 pkgver=1097.496c040
 pkgrel=1
 pkgdesc='Brew & manage PHP versions in pure PHP at HOME'
@@ -11,8 +11,8 @@ depends=('php')
 makedepends=('git')
 source=('git+https://github.com/c9s/phpbrew.git')
 md5sums=('SKIP')
-conflicts=('php-phpbrew')
-provides=('php-phpbrew')
+conflicts=('phpbrew')
+provides=('phpbrew')
 install=$pkgname.install
 
 _gitname=phpbrew
